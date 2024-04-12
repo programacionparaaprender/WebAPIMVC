@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMVC", "WebAPIMVC\WebAPIMVC.csproj", "{6109BDC1-8A3D-4EE6-ACEB-7C8341EFC4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMVC.Tests", "WebAPIMVC.Tests\WebAPIMVC.Tests.csproj", "{8B1D7C38-A24A-4399-8EDB-8AF85BFC36AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{83035F18-28CA-4617-804E-D3DD90822723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{29DBE9A2-85EB-4ABC-B71D-AEBA22E333C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{667553BC-6A30-4ECB-9331-915EB4BE6C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6109BDC1-8A3D-4EE6-ACEB-7C8341EFC4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6109BDC1-8A3D-4EE6-ACEB-7C8341EFC4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6109BDC1-8A3D-4EE6-ACEB-7C8341EFC4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6109BDC1-8A3D-4EE6-ACEB-7C8341EFC4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B1D7C38-A24A-4399-8EDB-8AF85BFC36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B1D7C38-A24A-4399-8EDB-8AF85BFC36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B1D7C38-A24A-4399-8EDB-8AF85BFC36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B1D7C38-A24A-4399-8EDB-8AF85BFC36AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83035F18-28CA-4617-804E-D3DD90822723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83035F18-28CA-4617-804E-D3DD90822723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83035F18-28CA-4617-804E-D3DD90822723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83035F18-28CA-4617-804E-D3DD90822723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DBE9A2-85EB-4ABC-B71D-AEBA22E333C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DBE9A2-85EB-4ABC-B71D-AEBA22E333C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DBE9A2-85EB-4ABC-B71D-AEBA22E333C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DBE9A2-85EB-4ABC-B71D-AEBA22E333C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667553BC-6A30-4ECB-9331-915EB4BE6C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667553BC-6A30-4ECB-9331-915EB4BE6C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667553BC-6A30-4ECB-9331-915EB4BE6C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667553BC-6A30-4ECB-9331-915EB4BE6C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35
+		SolutionGuid = {F0C7B6EE-EF90-4FEC-B26C-81013D9B0881}
+	EndGlobalSection
+EndGlobal
